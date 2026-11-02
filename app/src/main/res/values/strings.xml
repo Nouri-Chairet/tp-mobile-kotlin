@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Atelier Android</string>
+    <string name="titre_atelier">Atelier Android</string>
+    <string name="sous_titre_formulaire">Formulaire d’inscription</string>
+    <string name="hint_nom">Nom</string>
+    <string name="hint_prenom">Prénom</string>
+    <string name="hint_age">Âge</string>
+    <string name="label_groupe">Groupe :</string>
+    <string name="label_support">Mode d\'exécution :</string>
+    <string name="radio_emulateur">Émulateur</string>
+    <string name="radio_telephone">Téléphone réel</string>
+    <string name="checkbox_confirmation">Je confirme les informations saisies</string>
+    <string name="btn_afficher">Afficher la fiche</string>
+    <string name="btn_effacer">Effacer</string>
+    <string name="resultat_defaut">Votre fiche apparaîtra ici</string>
+    <string name="btn_enregistrer">Enregistrer le participant</string>
+    <string name="btn_liste">Afficher la liste</string>
+    <string name="hint_recherche">Rechercher par nom</string>
+    <string name="btn_rechercher">Rechercher</string>
+    <string name="liste_initiale">La liste ou le résultat de recherche apparaîtra ici.</string>
+    <string name="compteur_inscriptions">Inscriptions : %1$d</string>
+    <string name="inscription_reussie">Inscription enregistrée : %1$s %2$s</string>
+    <string name="erreur_doublon">Ce participant est déjà inscrit.</string>
+    <string name="liste_vide">Aucune inscription</string>
+    <string name="recherche_vide">Saisissez un nom à rechercher.</string>
+    <string name="aucun_participant">Aucun participant trouvé</string>
+</resources>

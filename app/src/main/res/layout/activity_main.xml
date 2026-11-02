@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F6F7"
+    android:fillViewport="true"
+    tools:context=".MainActivity"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- En-tête -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#203148"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atelier Android"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Formulaire d'inscription"
+                android:textColor="#C7D5DE"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <!-- Nom -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Nom"
+            android:textColor="#40566A"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Saisir votre nom"
+            android:inputType="textPersonName|textCapWords"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <!-- Prénom -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Prénom"
+            android:textColor="#40566A"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Saisir votre prénom"
+            android:inputType="textPersonName|textCapWords"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <!-- Âge -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Âge"
+            android:textColor="#40566A"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Saisir votre âge"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <!-- Groupe -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Groupe"
+            android:textColor="#40566A"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/spGroupe"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:entries="@array/groupes"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp" />
+
+        <!-- Support de test -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="Support de test"
+            android:textColor="#40566A"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:id="@+id/rgSupport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbEmulateur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Émulateur"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/rbTelephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:text="Téléphone réel"
+                android:textSize="14sp" />
+        </RadioGroup>
+
+        <!-- Confirmation -->
+        <CheckBox
+            android:id="@+id/cbConfirmation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Je confirme les informations saisies"
+            android:textColor="#40566A"
+            android:textSize="14sp" />
+
+        <!-- Bouton Afficher -->
+        <Button
+            android:id="@+id/btnAfficher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:backgroundTint="#267B73"
+            android:text="Afficher la fiche"
+            android:textColor="#FFFFFF" />
+
+        <!-- Bouton Effacer -->
+        <Button
+            android:id="@+id/btnEffacer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#FFFFFF"
+            android:text="Effacer"
+            android:textColor="#267B73" />
+
+        <!-- Résultat -->
+        <TextView
+            android:id="@+id/tvResultat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="#E8F3F0"
+            android:padding="14dp"
+            android:text="Zone de récapitulatif&#10;La fiche sera affichée ici"
+            android:textColor="#40566A"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnEnregistrer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="#267B73"
+            android:text="@string/btn_enregistrer"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnListe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/btn_liste" />
+
+        <TextView
+            android:id="@+id/tvCompteur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#DCEBE7"
+            android:padding="12dp"
+            android:text="Inscriptions : 0"
+            android:textColor="#203148"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etRecherche"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="@string/hint_recherche"
+            android:inputType="textPersonName|textCapWords"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btnRechercher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_rechercher" />
+
+        <TextView
+            android:id="@+id/tvListe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#FFFFFF"
+            android:minHeight="72dp"
+            android:padding="12dp"
+            android:text="@string/liste_initiale"
+            android:textColor="#40566A"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

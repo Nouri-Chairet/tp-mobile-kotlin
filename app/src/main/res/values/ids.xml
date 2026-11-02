@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="etNom" type="id">etNom</item>
+    <item name="etPrenom" type="id">etPrenom</item>
+    <item name="etAge" type="id">etAge</item>
+    <item name="spGroupe" type="id">spGroupe</item>
+    <item name="rgSupport" type="id">rgSupport</item>
+    <item name="rbEmulateur" type="id">rbEmulator</item>
+    <item name="rbTelephone" type="id">rbTelephone</item>
+    <item name="cbConfirmation" type="id">cbConfirmation</item>
+    <item name="btnAfficher" type="id">btnAfficher</item>
+    <item name="btnEffacer" type="id">btnEffacer</item>
+    <item name="tvResultat" type="id">tvResultat</item>
+</resources>
