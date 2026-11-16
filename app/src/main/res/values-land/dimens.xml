@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="espace_page">12dp</dimen>
+    <dimen name="espace_section">8dp</dimen>
+</resources>

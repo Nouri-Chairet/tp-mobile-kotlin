@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="groupes">
-        <item>Choisir un groupe</item>
+        <item>@string/groupe_a_choisir</item>
         <item>G1</item>
         <item>G2</item>
         <item>G3</item>
+    </string-array>
+    <string-array name="filtres_groupes">
+        <item>@string/menu_tous</item>
+        <item>@string/menu_g1</item>
+        <item>@string/menu_g2</item>
+        <item>@string/menu_g3</item>
     </string-array>
 </resources>

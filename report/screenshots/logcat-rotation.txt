@@ -1,0 +1,6 @@
+11-02 15:20:39.535 8632 8632 D AtelierCycle: onPause
+11-02 15:20:39.538 8632 8632 D AtelierCycle: onStop
+11-02 15:20:39.541 8632 8632 D AtelierCycle: onDestroy
+11-02 15:20:39.567 8632 8632 D AtelierCycle: onCreate
+11-02 15:20:39.624 8632 8632 D AtelierCycle: onStart
+11-02 15:20:39.626 8632 8632 D AtelierCycle: onResume
